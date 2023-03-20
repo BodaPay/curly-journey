@@ -1,5 +1,6 @@
 import "./App.css";
-import DisplayPosts from "./components/DisplayPost";
+import AddPosts from "./components/AddPosts";
+import DisplayPosts from "./components/DisplayPosts";
 
 function App() {
 	return (
@@ -7,6 +8,7 @@ function App() {
 			<header className="App-header">
 				<h1>Up and runnning</h1>
 			</header>
+			<AddPosts />
 			<DisplayPosts />
 		</div>
 	);
