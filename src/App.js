@@ -1,18 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import AddPosts from "./components/AddPosts";
+import DisplayPosts from "./components/DisplayPosts";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         Up and runnning
-        </p>
-   
-      </header>
-    </div>
-  );
+	return (
+		<div className="App">
+			<header className="App-header">
+				<h1>Up and runnning</h1>
+			</header>
+			<AddPosts />
+			<DisplayPosts />
+		</div>
+	);
 }
 
 export default App;

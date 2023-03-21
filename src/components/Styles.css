@@ -1,0 +1,33 @@
+.post-card {
+	width: 60%;
+	border: 3px solid green;
+	margin: 1rem auto;
+	padding: 1rem;
+}
+
+.post-card .post-title {
+	text-transform: capitalize;
+}
+
+.delete-button {
+	background: red;
+	padding: 0.5rem 1.5rem;
+	font-weight: 700;
+}
+
+.form-container .form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.form input {
+	padding: 0.5rem 1rem;
+	width: 50%;
+	margin: 0.5rem 0;
+}
+
+.add-button {
+	background: orange;
+	padding: 0.5rem 1.5rem;
+	font-weight: 700;
+}
